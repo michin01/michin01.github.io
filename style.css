@@ -1,13 +1,73 @@
-h1{
-
-    background-image: url('header.png');
-    transparency: 50%;
-    height: 600px;
-    width: 1000px;
-
-
+html{
+    font-family: "Open Sans";
 }
+
 body{
-    background-color:#FFFFF0;
+    margin-left:50px;
+    float:left;
+}
+#left{
+    float:left;
+    width: 400px;
+}
+#info{
+    margin-top:100px;
+    margin-left:50px;
+    width:600px;
+    float:left;
+}
+#publications{
+
+    float: left;
+    display:block;
+    width:1000px;
+}
+#experience{
+    float:left;
+    display:none;
+    width:1000px;
+}
+#personal{
+    float:left;
+    display:none;
+width: 1000px;
+}
+#header{
+padding-top:20px;
+padding-bottom:5px;
+}
+h1{
+padding-bottom: 5px;
+margin-bottom: 0px;
+font-size:2.8em;
+}
+li{
+margin-left:20px;
+list-style-type:none;
+}
+ul,p{
+padding-left:20px;
+padding-bottom:5px;
+}
+a:link{
+color:rgb(0,100,100);
+text-decoration:none;
+}
+a:visited{
+color:rgb(0,100,100);
+}
+a:hover{
+color:rgb(0,170,170);
+}
+
+
+img{
+    width:300px;
+    border-radius:500px;
+}
+
+li{
+    margin-bottom:10px;
+
 
 }
