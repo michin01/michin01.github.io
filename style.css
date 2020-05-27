@@ -1,13 +1,15 @@
 html{
     font-family: "Open Sans";
+    background-color: #DCDCDC;
 }
 
 body{
     margin: 0;
+    padding: 10px;
     position: absolute;
-    left: 40%;
-    top: 5%;
-    transform: translate(-40%, -0%);
+    left: 10%;
+    width: 80%;
+    background-color: white;
 }
 
 .contact-info{
