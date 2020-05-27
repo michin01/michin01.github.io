@@ -5,22 +5,37 @@ html{
 
 body{
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     position: absolute;
-    left: 10%;
+    left: 9%;
     width: 80%;
     background-color: white;
+    text-align: justify;
 }
 
 .contact-info{
   margin-bottom: 0;
   margin-top: 0;
 }
-
-.pub{
+.column{
+  float: left;
+  display:inline;
   margin-left:15px;
   font-size: 13px;
   margin-bottom:5px;
+  position: relative;
+}
+
+.left{
+  width: 85%;
+}
+.right{
+  width:9%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .title{
